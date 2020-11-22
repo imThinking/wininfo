@@ -7,7 +7,7 @@ __name__="SnapShot Full Screen"
 import win32gui, win32print, win32con, sys, os.path, time, socket
 from PIL import ImageGrab
 
-class SceenShot():
+class ScreenShot():
     def __init__(self, HOSTNAME, FILE_PATH):
         self.HOSTNAME = HOSTNAME
         self.FILE_PATH = FILE_PATH
@@ -61,4 +61,4 @@ def cur_file_dir():
 if __name__ == "__main__":
     host = (socket.gethostbyname(socket.gethostname())) 
     path = cur_file_dir()
-    S = SceenShot(host, path)
+    S = ScreenShot(host, path)
