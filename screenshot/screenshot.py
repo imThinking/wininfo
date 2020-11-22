@@ -2,6 +2,7 @@ __title__ = 'wininfo'
 __version__ = '0.1'
 __author__ = 'ZHOU'
 __license__ = 'Apache v2.0 License'
+__name__="SnapShot Full Screen"
 
 import win32gui, win32print, win32con, sys, os.path, time, socket
 from PIL import ImageGrab
